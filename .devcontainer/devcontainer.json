@@ -27,10 +27,5 @@
   "forwardPorts": [3000],
   "postCreateCommand": "bundle install",
   "postStartCommand": "bundle exec rails db:create db:migrate",
-  "remoteUser": "vscode",
-  "environment": {
-    "RAILS_ENV": "development",
-    "DB": "postgres",
-    "DATABASE_URL": "postgres://postgres:postgres@localhost:5432/spree_development"
-  }
+  "remoteUser": "vscode"
 } 
